@@ -1,0 +1,69 @@
+body, h1, h2, h3, h4, p, input, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url(/public/Images/two.webp); 
+    background-size: cover;
+    background-position: center;
+}
+#hea{
+    color: white;
+}
+
+header {
+    background-color: #FFC107;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFC107;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #FFC107;
+}
+
+footer {
+    margin-left: 550px;
+    width: 400px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000000;
+}
